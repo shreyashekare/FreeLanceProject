@@ -1,0 +1,90 @@
+.cardBody {
+  background: linear-gradient(310deg, rgb(226 223 223), rgb(229 229 229));
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.taskBox {
+  display: flex;
+  justify-content: center;
+}
+
+.taskContentBox {
+  width: 80%;
+  height: 200px;
+
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  overflow: auto;
+  background-image: linear-gradient(45deg, #bdc3c7, #616a73);
+}
+/* .taskContentBox::-webkit-scrollbar {
+  width: 0; 
+} */
+.task:hover {
+  transform: scale(1.1);
+}
+
+.task {
+  transition: transform 0.3s ease;
+  border: 1px solid #b3abab;
+  border-radius: 5px;
+  margin: 5px;
+  width: 50%;
+  height: 37px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-image: linear-gradient(to right, #7a7a93, #1491cc);
+  text-align: center;
+  padding: 5px;
+  color: white;
+}
+
+.assignTask_employee {
+  transition: transform 0.1s ease;
+  border: 1px solid #b3abab;
+  border-radius: 5px;
+  margin: 5px;
+  width: 97%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-image: linear-gradient(to right, #7a7a93, #1491cc);
+  text-align: center;
+  padding: 5px;
+  color: white;
+}
+.assignTask_employee:hover {
+  transform: scale(1.03);
+}
+
+.slider_container {
+  margin: 60px;
+}
+
+.employee_box {
+  height: 187px;
+  border-radius: 10px;
+  margin: 5px;
+  text-align: center;
+  padding: 5px;
+  font-size: large;
+  font-weight: 600;
+  color: white;
+  overflow: auto;
+  background-image: linear-gradient(45deg, #afa07b, #275591);
+  border: 1px solid white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.employee_box::-webkit-scrollbar {
+  width: 0; /* hide the scrollbar */
+}
+
+.actionBtn_box {
+  display: flex;
+  justify-content: right;
+  height: 7px;
+}
+
+.actionBtn:hover {
+  color: red;
+}

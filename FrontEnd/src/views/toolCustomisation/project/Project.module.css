@@ -1,0 +1,95 @@
+.cardBody {
+  /* background-color: #bce0ff; */
+  margin-left: -10px;
+}
+
+.projectBox {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  
+}
+
+.projectCards {
+  background: linear-gradient(to bottom, #edf3f6, #3d609b);
+  color: rgb(40, 47, 47);
+  margin-bottom: 20px;
+  border: none;
+  height: 48vh;
+  width: 250px;
+  /* box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset; */
+  /* box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px; */
+}
+
+.projectName {
+  color: #000f207e;
+  font-weight: 600;
+  padding: 10px;
+  font-size: 15px;
+  margin: 5px;
+}
+
+.modules_color_box {
+  display: flex;
+  justify-content: space-around;
+  width: 400px;
+  border: 1px solid;
+  padding: 5px;
+  border-radius: 7px;
+  background-color: lightgray;
+}
+.crossBtn:hover {
+  color: red;
+}
+.crossBtn {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.assignTask_projectDetails {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  border: 1px solid #b0aaaa;
+  margin-bottom: 20px;
+}
+
+.assignTask_projectDetails th,
+.assignTask_projectDetails td {
+  border: 1px solid #b0aaaa;
+  padding: 8px;
+}
+
+.assignTask_Table {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+}
+
+.assignTask_Table td,
+.assignTask_Table th {
+  border: 1px solid #b0aaaa;
+  padding: 8px;
+}
+
+.upDownBtn {
+  cursor: pointer;
+}
+/* styles.module.css */
+
+.circle {
+  display: inline-block;
+  width: 20px;  /* Adjust the size as needed */
+  height: 20px; /* Adjust the size as needed */
+  line-height: 20px; /* Match the height for centering text */
+  border-radius: 50%;
+  background-color: #007bff; /* Adjust the background color */
+  color: white; /* Adjust the text color */
+  text-align: center;
+  font-size: 12px; /* Adjust the font size as needed */
+  margin-left: 8px; /* Space between the text and the circle */
+}
+.scrollableBody {
+  
+  overflow-y: auto;
+}

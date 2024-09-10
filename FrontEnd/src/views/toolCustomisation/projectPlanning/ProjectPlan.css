@@ -1,0 +1,85 @@
+#tbody {
+  border: 1px solid rgb(210, 210, 210);
+  overflow: hidden;
+  position: relative;
+  width: auto;
+}
+#tbody .dropdown {
+  background-color: rgb(193, 193, 247);
+  overflow: hidden;
+  width: 40px;
+}
+#header {
+  background-color: aqua;
+}
+.newTable {
+  /* background-color: black; */
+  width: 5%;
+  padding: 20px;
+  /* margin: auto; */
+  overflow: auto;
+}
+
+.newBold {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  margin-top: -25px;
+  width: 77vw;
+  margin-bottom: 5px;
+  flex: 1 1;
+  margin-left: 2%;
+}
+
+.timeDetails {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ 
+}
+
+.statusItem1 {
+  background-color: #bdced7;
+  padding: 7px;
+  flex-basis: 35%;
+  margin: 0 10px;
+  border-radius: 3px;
+  text-align: center;
+  box-shadow:  2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.statusItem2 {
+  background-color: #d1fe24;
+  padding: 7px;
+  flex-basis: 35%;
+  margin: 0 10px;
+  border-radius: 3px;
+  text-align: center;
+  box-shadow:  2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.statusItem3 {
+  background-color: #1cfa20;
+  padding: 7px;
+  flex-basis: 35%;
+  margin: 0 10px;
+  border-radius: 3px;
+  text-align: center;
+  box-shadow:  2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+.statusItem1:hover{
+  background:#a2b1b9;
+}
+.statusItem2:hover
+{
+  background: #bde421;
+}
+.statusItem3:hover
+{
+  background: #10c513;
+}
+.filterDiv
+{
+  margin-bottom: 10px;
+}

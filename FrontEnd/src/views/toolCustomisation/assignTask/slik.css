@@ -1,0 +1,13 @@
+/* SlickSlider.css */
+.slick-arrow.slick-prev {
+  /* Add your custom styles here */
+  background-color: black;
+  border-radius: 10px;
+}
+
+.slick-arrow.slick-next {
+  /* Add your custom styles here */
+  background-color: black;
+  border-radius: 10px;
+}
+/* Add more custom styles as needed */

@@ -1,0 +1,107 @@
+#tbody {
+  border: 1px solid rgb(210, 210, 210);
+  overflow: hidden;
+  position: relative;
+  width: auto;
+}
+
+#tbody .dropdown {
+  background-color: rgb(193, 193, 247);
+  overflow: hidden;
+  width: 40px;
+}
+
+#header {
+  background-color: aqua;
+}
+
+.newTable {
+  /* background-color: black; */
+  width: 5%;
+  padding: 20px;
+  /* margin: auto; */
+  overflow: auto;
+}
+
+.newBold2 {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  margin-top: -25px;
+  width: 77.5vw;
+  margin-bottom: 5px;
+  flex: 1 1;
+  margin-left: 2%;
+}
+
+.timeDetails {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ 
+}
+
+.statusItem11 {
+  background-color: #bdced7;
+  padding: 7px;
+  flex-basis: 25%;
+  margin: 0 10px;
+  border-radius: 3px;
+  text-align: center;
+  box-shadow:  2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.statusItem21 {
+  background-color: #0dcaf0;
+  padding: 7px;
+  flex-basis: 25%;
+  margin: 0 10px;
+  border-radius: 3px;
+  text-align: center;
+  box-shadow:  2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.statusItem31 {
+  background-color: #d1fe24;
+  padding: 7px;
+  flex-basis: 25%;
+  margin: 0 10px;
+  border-radius: 3px;
+  text-align: center;
+  box-shadow:  2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.statusItem41 {
+  background-color: #1cfa20;
+  padding: 7px;
+  flex-basis: 25%;
+  margin: 0 10px;
+  border-radius: 3px;
+  text-align: center;
+  box-shadow:  2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+.statusItem11:hover{
+  background:#a2b1b9;
+}
+.statusItem21:hover{
+  background:#0baaca;
+}
+.statusItem31:hover
+{
+  background: #bde421;
+}
+.statusItem41:hover
+{
+  background: #10c513;
+}
+.custom-data-table {
+  border-radius: 8px;
+   /* Adjust as needed */
+  overflow: hidden;   /* Ensures the border-radius is visible */
+}
+
+.filterDiv
+{
+  margin-bottom: 10px;
+}

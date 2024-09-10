@@ -1,0 +1,126 @@
+tr,
+td {
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.data-table th,
+.data-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+  font-size: 14px;
+}
+
+.data-table th {
+  background-color: #3c4b64;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.data-table th:nth-child(1),
+.data-table td:nth-child(1) {
+  width: 5%;
+  text-align: center;
+}
+
+.data-table th:nth-child(2),
+.data-table td:nth-child(2) {
+  width: 15%;
+}
+
+.data-table th:nth-child(3),
+.data-table td:nth-child(3) {
+  width: 14%;
+}
+
+.data-table th:nth-child(4),
+.data-table td:nth-child(4) {
+  width: 14%;
+}
+
+.data-table th:nth-child(5),
+.data-table td:nth-child(5) {
+  width: 12%;
+}
+
+.data-table th:nth-child(6),
+.data-table td:nth-child(6) {
+  width: 13%;
+}
+
+.data-table th:nth-child(7),
+.data-table td:nth-child(7) {
+  text-align: center;
+  width: 12%;
+}
+
+.data-table th:nth-child(8),
+.data-table td:nth-child(8) {
+  width: 10%;
+  text-align: center;
+}
+
+.data-table th:nth-child(9),
+.data-table td:nth-child(9) {
+  width: 12%;
+  text-align: center;
+}
+
+.data-table th:nth-child(10),
+.data-table td:nth-child(10) {
+  width: 13%;
+  text-align: center;
+}
+
+.data-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.data-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.data-table tbody {
+  display: block;
+  height: auto;
+  /* overflow-y: auto; */
+}
+
+.data-table thead,
+.data-table tbody tr {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+
+.selectButton {
+  margin: 10px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.column-sr-no th,
+.column-sr-no td {
+  margin-left: 80px; /* Adjust as needed */
+  /* Optional: Ensure text alignment is consistent */
+}
+
+.column-module-name th,
+.column-module-name td {
+  padding-left: 0; /* Adjust as needed */
+  text-align: left; /* Optional: Ensure text alignment is consistent */
+}
+.designationArea
+{
+  display: flex;
+  gap: 10px;
+}
+/* userAccess.css */

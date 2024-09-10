@@ -1,0 +1,46 @@
+.modules_color_box {
+  display: flex;
+  justify-content: space-around;
+  width: 400px;
+  border: 1px solid;
+  padding: 5px;
+  border-radius: 7px;
+  background-color: lightgray;
+}
+.crossBtn:hover {
+  color: red;
+}
+.crossBtn {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.assignTask_projectDetails {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  border: 1px solid #b0aaaa;
+  margin-bottom: 20px;
+}
+
+.assignTask_projectDetails th,
+.assignTask_projectDetails td {
+  border: 1px solid #b0aaaa;
+  padding: 8px;
+}
+
+.assignTask_Table {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+}
+
+.assignTask_Table td,
+.assignTask_Table th {
+  border: 1px solid #b0aaaa;
+  padding: 8px;
+}
+
+.upDownBtn {
+  cursor: pointer;
+}

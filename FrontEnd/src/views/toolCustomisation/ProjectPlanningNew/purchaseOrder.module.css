@@ -1,0 +1,18 @@
+.crossBtn:hover {
+    color: red;
+  }
+  .crossBtn {
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  .modules_color_box {
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+    border: 1px solid;
+    padding: 5px;
+    border-radius: 7px;
+    background-color: lightgray;
+  }
+  
